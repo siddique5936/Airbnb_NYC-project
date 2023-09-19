@@ -11,8 +11,8 @@ Data Summary
 
 __All columns and type of information stored in the csv file is as follows__
 
-Id -unique id in the dataset
-name- name which is listed on Airbnb as “home/apt”,” private room”,” shared room”
+* Id -unique id in the dataset
+* name- name which is listed on Airbnb as “home/apt”,” private room”,” shared room”
 host_id- unique id of the host in Airbnb Dataset
 host_name- name of host
 Neighbourhood_group - areas in New York
