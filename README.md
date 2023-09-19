@@ -1,4 +1,4 @@
-#Airbnb Exploratory Data Analysis
+# Airbnb Exploratory Data Analysis 
 
 Airbnb is a for-profit service that links homeowners with travellers searching for lodging. Airbnb encourages its hosts to set the pricing for their units with the aid of a few guidelines that allow hosts to compare their listings to others in the area to decide a reasonable price.
 
@@ -28,7 +28,7 @@ Reviews_per_month - reviews received per month
 calculated_host_listings_count - count of total number of listings for that host
 availability_365 - number of available days in a year (365 Days) 
 
-***Conclusions
+### Conclusions
 
 Airbnb is a for-profit service that links homeowners with travellers searching for lodging. Airbnb encourages its hosts to set the pricing for their units. This study gives relationships between parameters such as reviews, minimum nights spent and prices spent by travellers in comparison to selective localities in New York.
 
