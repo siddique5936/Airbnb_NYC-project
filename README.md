@@ -13,20 +13,20 @@ __All columns and type of information stored in the csv file is as follows__
 
 * Id -unique id in the dataset
 * name- name which is listed on Airbnb as “home/apt”,” private room”,” shared room”
-host_id- unique id of the host in Airbnb Dataset
-host_name- name of host
-Neighbourhood_group - areas in New York
-Neighbourhood - sub-areas that are located inside areas
-latitude- location latitude on Earth's surface
-longitude- location longitude on Earth's surface
-room_type- listed room type [‘home/apt’, ’private room’, ‘shared room’]
-price- price per night
-minimum_nights - sub areas which are located inside areas
-number_of_reviews- total count of reviews for listed name
-last_reviews- last reviews for listed name
-Reviews_per_month - reviews received per month
-calculated_host_listings_count - count of total number of listings for that host
-availability_365 - number of available days in a year (365 Days) 
+* host_id- unique id of the host in Airbnb Dataset
+* host_name- name of host
+* Neighbourhood_group - areas in New York
+* Neighbourhood - sub-areas that are located inside areas
+* latitude- location latitude on Earth's surface
+* longitude- location longitude on Earth's surface
+* room_type- listed room type [‘home/apt’, ’private room’, ‘shared room’]
+* price- price per night
+* minimum_nights - sub areas which are located inside areas
+* number_of_reviews- total count of reviews for listed name
+* last_reviews- last reviews for listed name
+* Reviews_per_month - reviews received per month
+* calculated_host_listings_count - count of total number of listings for that host
+* availability_365 - number of available days in a year (365 Days) 
 
 ### Conclusions
 
@@ -40,17 +40,17 @@ This EDA concentrated on the busiest and least busy areas, as well as hosts. We 
 
 _These are the important conclusions made out of this EDA._
 
-The properties have large differences in prices.
-Separating the dataset by price categories is useful for the analysis.
-The most interesting variables regarding price prediction are:
-Location
-Room type
-calculated_host_listings_count
-Number of review
-Price prediction models are not performing well
-Best score is 0.55
-Prediction are nore accurate for price under $175 (75% of the dataset)
-Using categorical ecnoded data did not improve the model
-Possible next steps
-The next step could be to transform continuous variables into categorical variables as it can help capture non-linear relations.
-I doubt a neural network would be useful here because the number of observations is limited.
+The properties have large differences in prices.  
+Separating the dataset by price categories is useful for the analysis.  
+The most interesting variables regarding price prediction are:  
+Location  
+Room type  
+calculated_host_listings_count   
+Number of review  
+Price prediction models are not performing well  
+Best score is 0.55  
+Prediction are nore accurate for price under $175 (75% of the dataset)  
+Using categorical ecnoded data did not improve the model  
+Possible next steps  
+The next step could be to transform continuous variables into categorical variables as it can help capture non-linear relations.  
+I doubt a neural network would be useful here because the number of observations is limited.  
